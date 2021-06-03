@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #e6e6e6;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+.form {
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 500px;
+  height: 600px;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4);
+  background: transparent;
+      box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.3),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+  border-radius: 40px;
+}
+
+.form .form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.form .form-content input {
+  margin-top: 15px;
+  width: 250px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-width: 2px;
+}
+
+.form .form-content .form-content-signin {
+  margin-bottom: 200px;
+}
